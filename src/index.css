@@ -2,39 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Al Asad Curtains Design System - Luxury Interior Design Aesthetic
+All colors MUST be HSL. Inspired by premium interior design and craftsmanship.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core Brand Colors - Luxury Interior Palette */
+    --background: 40 20% 98%; /* Warm ivory */
+    --foreground: 220 40% 15%; /* Deep navy */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 40 30% 96%; /* Soft cream */
+    --card-foreground: 220 40% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 40 20% 98%;
+    --popover-foreground: 220 40% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Deep Navy for trust and professionalism */
+    --primary: 220 40% 15%;
+    --primary-foreground: 40 20% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Warm Taupe for elegance */
+    --secondary: 35 15% 75%;
+    --secondary-foreground: 220 40% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted - Soft neutrals */
+    --muted: 35 10% 88%;
+    --muted-foreground: 220 20% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Soft Gold for luxury touches */
+    --accent: 45 60% 75%;
+    --accent-foreground: 220 40% 15%;
+
+    /* Luxury Gold - Premium accent */
+    --luxury: 45 80% 65%;
+    --luxury-foreground: 220 40% 15%;
+
+    /* Premium Gold Gradient */
+    --gradient-luxury: linear-gradient(135deg, hsl(45 80% 65%) 0%, hsl(45 60% 75%) 100%);
+    --gradient-elegant: linear-gradient(135deg, hsl(40 20% 98%) 0%, hsl(35 15% 92%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(220 40% 15%) 0%, hsl(220 30% 25%) 100%);
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 40 20% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 35 20% 85%;
+    --input: 35 20% 85%;
+    --ring: 45 60% 75%;
 
     --radius: 0.5rem;
 
@@ -100,6 +114,62 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+
+  /* Custom utility classes for Al Asad Curtains */
+  .luxury-gradient {
+    background: var(--gradient-luxury);
+  }
+
+  .elegant-gradient {
+    background: var(--gradient-elegant);
+  }
+
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .luxury-text {
+    @apply bg-gradient-to-r from-accent to-luxury bg-clip-text text-transparent;
+  }
+
+  .smooth-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .curtain-shadow {
+    box-shadow: 0 10px 40px -10px hsl(var(--accent) / 0.3);
+  }
+
+  .elegant-hover {
+    @apply smooth-transition hover:scale-105 hover:curtain-shadow;
+  }
+
+  /* Typography enhancements */
+  .text-luxury {
+    color: hsl(var(--luxury));
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-foreground;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--accent));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--luxury));
   }
 }
