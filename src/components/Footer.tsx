@@ -41,7 +41,7 @@ const Footer = () => {
               <h3 className="text-2xl font-bold luxury-text mb-2">Al Asad Curtains</h3>
               <div className="flex items-center gap-2 text-primary-foreground/80 mb-4">
                 <Award size={16} />
-                <span className="text-sm">Established 1998</span>
+                <span className="text-sm">Established 1999</span>
               </div>
               <p className="text-primary-foreground/80 text-sm leading-relaxed">
                 Premium curtains, blinds, and interior solutions in Abu Dhabi. 
@@ -183,7 +183,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm text-center md:text-left">
-              © 2024 Al Asad Curtains. All rights reserved. Serving Abu Dhabi since 1998.
+              © 2024 Al Asad Curtains. All rights reserved. Serving Abu Dhabi since 1999.
             </p>
             <div className="flex items-center gap-4 text-primary-foreground/60 text-sm">
               <span>Made with ❤️ for premium interiors</span>
