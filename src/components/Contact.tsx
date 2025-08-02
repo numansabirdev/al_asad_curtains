@@ -207,7 +207,7 @@ const Contact = () => {
                 </p>
                 <Button variant="elegant" className="w-full" asChild>
                   <a 
-                    href="https://g.co/kgs/1Tt1VvH" 
+                    href="https://maps.app.goo.gl/JcKbGNHrB2umvzdMA" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
