@@ -22,7 +22,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold luxury-text">Al Asad Curtains</h1>
-            <p className="text-xs text-muted-foreground">Since 1998</p>
+            <p className="text-xs text-muted-foreground">Since 1999</p>
           </div>
 
           {/* Desktop Navigation */}
