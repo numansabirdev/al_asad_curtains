@@ -18,7 +18,7 @@ const About = () => {
       icon: <Calendar className="w-8 h-8" />,
       value: "25+",
       label: "Years Experience",
-      description: "Established in 1998"
+      description: "Established in 1999"
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -68,7 +68,7 @@ const About = () => {
             Why Choose Al Asad Curtains?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Since 1998, we've been Abu Dhabi's trusted partner for premium curtains, blinds, and interior solutions.
+            Since 1999, we've been Abu Dhabi's trusted partner for premium curtains, blinds, and interior solutions.
           </p>
         </div>
 
@@ -104,7 +104,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Founded in 1998 in the heart of Khalidiya, Abu Dhabi, Al Asad Curtains began as a family business 
+                Founded in 1999 in the heart of Khalidiya, Abu Dhabi, Al Asad Curtains began as a family business 
                 with a simple mission: to transform spaces with premium quality curtains and blinds.
               </p>
               <p>
