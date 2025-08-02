@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base:"/al_asad_curtains",
   plugins: [
     react(),
     mode === 'development' &&
