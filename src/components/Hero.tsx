@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-accent/90 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
             <Award size={20} className="text-luxury" />
-            <span className="text-accent-foreground font-medium">Established 1998 • 25+ Years of Excellence</span>
+            <span className="text-accent-foreground font-medium">Established 1999 • 25+ Years of Excellence</span>
           </div>
 
           {/* Main Heading */}
